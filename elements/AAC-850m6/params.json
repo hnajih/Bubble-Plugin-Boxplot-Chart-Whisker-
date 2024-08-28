@@ -1,0 +1,115 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": false,
+    "can_fit_width": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 240,
+        "width": 400
+    },
+    "display": "Boxplot chart",
+    "fields": {
+        "AAG": {
+            "caption": "Series data x",
+            "doc": "series x values",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "series_data_x",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Title",
+            "default_val": "chart title",
+            "doc": "Text to display as a title of chart",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Title alignment",
+            "default_val": "left",
+            "doc": " Alignment of title relative to chart area. ",
+            "editor": "Dropdown",
+            "name": "title_alignment",
+            "options": "left,center,right",
+            "rank": 1
+        },
+        "AAa": {
+            "caption": "No data text",
+            "default_val": "no data",
+            "doc": " The text to display when no-data is available. Defaults to undefined which displays nothing.",
+            "editor": "StaticText",
+            "in_style": true,
+            "name": "no_data_text",
+            "rank": 6
+        },
+        "AAb": {
+            "caption": "Dark mode",
+            "default_val": false,
+            "doc": "Enable dark mode",
+            "editor": "DynamicValue",
+            "name": "dark_mode",
+            "rank": 7,
+            "value": "boolean"
+        },
+        "AAc": {
+            "caption": "Tooltip enabled",
+            "default_val": true,
+            "doc": " Show tooltip when user hovers over chart area.",
+            "editor": "Checkbox",
+            "name": "tooltip_enabled",
+            "rank": 8
+        },
+        "AAf": {
+            "caption": "Downloading enabled",
+            "default_val": false,
+            "doc": " Display the toolbar / menu in the top right corner.",
+            "editor": "DynamicValue",
+            "name": "downloading_enabled",
+            "rank": 9,
+            "value": "boolean"
+        },
+        "ABH": {
+            "caption": "Series data y",
+            "doc": "Series y values separated by comma.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "series_data_y",
+            "rank": 3,
+            "value": "text"
+        },
+        "ABJ": {
+            "caption": "Upper color",
+            "default_val": "rgba(92, 71, 66, 1)",
+            "editor": "Color",
+            "name": "upper_color",
+            "optional": true,
+            "rank": 4
+        },
+        "ABK": {
+            "caption": "Lower color",
+            "default_val": "rgba(165, 151, 139, 1)",
+            "editor": "Color",
+            "name": "lower_color",
+            "optional": true,
+            "rank": 5
+        },
+        "ABL": {
+            "caption": "Zoomable",
+            "default_val": false,
+            "doc": "To allow zooming in axis charts.",
+            "editor": "Checkbox",
+            "name": "zoomable",
+            "rank": 10
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-ios-pulse-strong",
+    "property_applications": {
+        "Font": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}
